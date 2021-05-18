@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:cabin ;
+   
+}
+.ricomida{
+    font-family: lobster;
+    font-size: 1.2rem;
+    color:white;
+   
+}
+.carousel-indicators{
+    bottom:-45%;
+       
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    
+}
+.caurosel-indicators li.active{
+    background-color: black;
+}
+
+.formulario{
+    background-color: #dc3545;
+    height: 18rem;
+    color: white;
+}
+.footer{
+    background-color:#373a3c ;
+}
+h1.abajo{
+    border-bottom:2px solid #9c9b9b  ;
+    
+}
+div.abajo{
+    border-bottom:2px solid #9c9b9b  ;
+    border-top:2px solid #9c9b9b  ;
+    
+}
+
+.card{
+    
+    padding: 0;
+}
+
+.empezar{
+    background-color: transparent;
+    color: white;
+}
+
+.centrado{
+    text-align: center;
+}
+@media (min-width:768px) {
+    .centrado{
+      text-align: left;
+}
+}
+h3{
+    width: fit-content;
+    text-decoration: underline ;
+    text-decoration-thickness: thickness 2xp; 
+    text-underline-offset: 7px;
+    padding-bottom: 1rem;
+}
